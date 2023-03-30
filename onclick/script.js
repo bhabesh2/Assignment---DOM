@@ -7,7 +7,7 @@ const button = document.querySelector("button");
 button.addEventListener("click", () => {
     if (bulb.style.backgroundColor === "white") {
       bulb.style.backgroundColor = "greenyellow";
-      bulb.style.boxShadow = "0 0 20px 20px greenyellow";
+      bulb.style.boxShadow = "0 0 50px 50px greenyellow";
       button.textContent = "Off";
     } else {
       bulb.style.backgroundColor = "white";
