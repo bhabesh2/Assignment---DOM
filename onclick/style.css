@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    background-color: black;
+}
+
+.light{
+    margin: auto;
+}
+
+.bulb{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.bulb::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 230px;
+    border: 1px solid black;
+    top: 0;
+    left: 50%;
+    margin-left: -10px;
+    background-color: rgb(65, 60, 60);
+    z-index: -1;
+}
+
+button{
+    margin: auto;
+    display: block;
+    margin-top: 80px;
+    padding: 2vh 4vw;
+    border-radius: 7px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    outline: 5px groove white;
+}
