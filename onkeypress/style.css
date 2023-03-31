@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+div {
+  margin: auto;
+  border: 1px solid red;
+  padding: 3vh 4vw;
+  border-radius: 7px;
+  background-color: red;
+  color: white;
+}
