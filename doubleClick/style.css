@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.folder {
+  margin: auto;
+}
+
+.container {
+  width: 40%;
+  margin: auto;
+  position: relative;
+}
+
+.image-one{
+    width: 100%;
+}
+
+.image-two {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
