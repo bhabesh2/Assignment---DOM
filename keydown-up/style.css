@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.box {
+  margin: auto;
+  padding: 3vh 2vw;
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: red;
+  color: white;
+}
+
+
+ 
