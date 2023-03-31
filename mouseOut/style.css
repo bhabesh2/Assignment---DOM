@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background-color: #555;
+}
+
+div {
+  margin: auto;
+  padding: 3vh 4vw;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  outline: 5px groove white;
+}
